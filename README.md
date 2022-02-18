@@ -8,13 +8,20 @@ Program that sort folders and files in the directories given as argument.
 Run the program giving as argument the directories to be sorted (the directory address must start from the desktop/Escritorio). for more help, run:
 
 ```
-    python3 Sort.py
-```
+File_Organizer$ python3 run.py
+Running mode:
 
-or:
+[STANDARD] Sort folders and files in the directories given as argument. For running:
+   python3 Sort.py "<directory1>" "<directory2>" ... "<directoryN>"
 
-```
-    python3 Sort.py --help
+[MONO] Sort folders and files on the <nameFolder> that meets a <condition>
+       (that condition is a word found in the names of the folders and files
+       to sort) on the directories given as argument. For running:
+   python3 Sort.py -l <nameFolder> <condition> <directory>
+
+[HELP] For run:
+   python3 Sort.py --help
+   python3 Sort.py
 ```
 
 in the CMD.
