@@ -92,8 +92,8 @@ def help():
             "[MONO] Sort folders and files on the <nameFolder> that meets a <condition>\n"
             "       (that condition is a word found in the names of the folders and files\n"
             "       to sort) on the directories given as argument. For running:\n"
-            "   python3 Sort.py -l <nameFolder> <condition> <directory>\n\n"
+            "   python3 run.py -l <nameFolder> <condition> <directory>\n\n"
             "[HELP] For run:\n"
-            "   python3 Sort.py --help\n"
-            "   python3 Sort.py\n")
+            "   python3 run.py --help\n"
+            "   python3 run.py\n")
 
